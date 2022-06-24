@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="nav">
+        <h2> My Website </h2>
+        <ul>
+            <li><a href="/signup.html">Sign Up</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#draft">Draft</a></li>
+            <li><a href="#home">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="home">
+        <h1>Belajar Pemrograman Dari Dasar Hingga Mahir</h1>
+        <p>Disini Anda Bisa Belajar Bahasa Pemrograman Secara Otodidak Gratis!!</p>
+            
+    </div>
+
+    <div class="draft">
+        <h2> Bahasa Pemrograman Dasar </h2>
+        <!-- Card HTML, CSS, JS -->
+        <div class="draftCard"> 
+            <div>
+                <img src="img/HTMLLogo.png" width="200" height="200">
+                <p><b>HTML ( Hyper Text Markup Language )</b><br>Sebagai Kerangka Dalam Pembuatan Website</p>
+                <a href="#"> Pelajari ></a>
+            </div>
+            <div>
+                <img src="img/CSSLogo.png" width="200" height="200">
+                <p><b>CSS ( Cascading Style Sheets )</b><br>Sebagai Tampilan/Design Dalam Pembuatan Website</p>
+                <a href="#"> Pelajari ></a>
+            </div>
+            <div>
+                <img src="img/JSLogo2.png" width="200" height="200">
+                <p><b>JS ( JavaScript )</b><br>Sebagai Mekanisme Dalam Pembuatan Website</p>
+                <a href="#"> Pelajari ></a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div>
+            <img src="img/ig.png" alt="Aditya_Saputra17" width="30" height="30"><span>@Code_Resolusi17</span>
+            <img src="img/twit.png" alt="Aditya_Saputra17" width="30" height="30"><span>@Code_Resolusi17</span>
+            <img src="img/yt.png" alt="Aditya_Saputra17" width="30" height="30"><span>CodeResolusi17</span>
+        </div>
+
+    </div>
+
+</body>
+<style>
+
+    * { 
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+    }
+    .nav {
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    padding: 15px;
+    }
+    .nav h2 {
+    margin-left: 30px;
+    display: inline;
+    color: white;
+    }
+    .nav ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    float: right;
+    margin-right:100px;
+    }
+    .nav ul li {
+    float: right;
+    }
+    .nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+    color: white;
+    }
+    .nav ul li a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    }
+
+    .home {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    }
+
+    .draft {
+    margin-top: 30px;
+    }
+    .draft h2 {
+    margin-left: 50px;
+    width: 100px;
+    border-bottom:2px solid black ;
+    display: inline;
+    padding-bottom: 5px;
+    }
+    .draft .draftCard {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    }
+    .draft .draftCard div {
+    margin-right: 40px;
+    overflow: hidden;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px grey;
+    background-color: white;
+    }
+    .draft .draftCard div img {
+    border-bottom: 2px solid black;
+    }
+    .draft .draftCard div p {
+    margin: 10px;
+    height: 110px;
+    }
+    .draft .draftCard div a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s;
+    }
+    .draft .draftCard div a:hover {
+    background-color: red;
+    }
+    
+    .about {
+    display: flex;
+    margin-top: 50px;
+    background-color: black;
+    padding:20px;
+    color: white;
+    }
+    .about div {
+    margin: auto;
+    }
+    .about div img {
+    margin-left: 30px;
+    }
+    .about div span {
+    position: relative;
+    top: -8px;
+    left: 3px;
+    font-size: 20px;
+    }
+</style>
+</html>

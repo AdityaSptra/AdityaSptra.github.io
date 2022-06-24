@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="form">
+        <h1> Hello Coder </h1>
+        <img src="img/pic.webp" alt="">
+        <div>
+            <input type="text" placeholder="Username">
+            <img src="img/name2.png">
+        </div>
+        <div>
+            <input type="email" placeholder="Email">
+            <img src="img/email.png">
+        </div>
+        <div>
+            <input type="password" placeholder="Password">
+            <img src="img/lock2.jpg">
+        </div>
+        <a href="/index.html">Create Account</a>
+    </div>
+
+</body>
+<style>
+
+    * { user-select: none; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    body {
+    background-color: lightgrey;
+    padding: 0;
+    margin: 0;
+    }
+    .form {
+    height: 320px;
+    background-color: white;
+    padding-top: 10px;
+    margin: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0 0 10px 0px red;
+    border-radius: 10px;
+    padding-left: 30px;
+    position: relative;
+    }
+    .form h1 {
+    width: 50%;
+    color: red;
+    text-align: center;
+    }
+    .form img {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+    .form div {
+    position: relative;
+    width: 48%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    }
+    .form div img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    }
+    .form div input {
+    padding: 10px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-weight: bold;
+    }
+    .form a {
+    text-decoration: none;
+    padding: 10px 100px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 0.2s;
+    position: absolute;
+    bottom: 20px;
+    }
+    .form a:hover {
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+    }
+
+</style>
+</html>
